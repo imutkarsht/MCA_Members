@@ -15,6 +15,7 @@ body{
     background: url('images/back-image.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 100vw;
 }
 
 /* Styles of Main Div of the page, inside which all other divs are present */
@@ -184,12 +185,11 @@ body{
             }
                 /* Style on the image of members */
                 .image{
-                    width: 50%;
-                    border-radius: 400px;
+                    width: 100%;
                     transition: width 0.4s ease-in;
                     transition: border-radius 0.05s ease-in;
                 }
-
+            
                 /* Hover effect on member image */
                 .image:hover{
                     border-radius: 0px;
@@ -227,7 +227,7 @@ body{
     border: none;
     margin: 2px auto 2px auto;
     background-color:transparent;
-    width:100%;
+    width:100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,6 +240,7 @@ body{
     }
     /* Style to text container of footer */
     .foottext{
+        width: 100vw;
         display: flex;
         justify-content: center;
         gap: 30px;
@@ -274,51 +275,8 @@ body{
         cursor: pointer;
     }
 
-    /*styles for the contributers section  */
-    .sitecontributers{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: transparent;
-        flex-direction: row;
-        gap: 10px;
-        padding: 10px;
-    }
-    .contri-member{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 20px;
-        box-shadow: 2px 2px 8px 4px black;
-        background: -webkit-radial-gradient(34% -34%,#0cf6fa, #EEE);
-    }
-    .contri-member i{
-        font-size: 30px;
-        background: none;
-        
-    }
-    .contri-member a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .contri-member p{
-        position: relative;
-        bottom: 0px;
-        font-weight: bolder;
-    }
-    .contri-member img{
-        width: 100%;
+   
     
-    }
-    .code-icons{
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: center;
-        background-color: #424646;
-    }
     .footer p{
         font-size: 1rem;
         color: white;

@@ -343,12 +343,6 @@ export const juniorDataArray = [
         imgHref: "dp/himanshu.jpeg"
     },
     {
-        id: 61,
-        name: "SHAILESH V",
-        lilink: "https://www.linkedin.com/in/shailesh-v-46a6b8154/",
-        imgHref: "dp/shaktiv.jpeg"
-    },
-    {
         id: 62,
         name: "RUPALI MISHRA",
         lilink: "https://www.linkedin.com/in/rupali-mishra-b91121295/",
